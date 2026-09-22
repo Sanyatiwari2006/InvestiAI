@@ -32,10 +32,10 @@ from styles import apply_custom_css
 from streamlit_folium import st_folium
 
 # New Multi-Source & Intelligence Engines
-from engine.nlp_extractor import NLPEntityExtractor
-from engine.cdr_analyzer import CDRAnalyzer
-from engine.social_media_intel import SocialMediaIntelEngine
-from data.multi_source_loader import MultiSourceDataLoader
+from nlp_extractor import NLPEntityExtractor
+from cdr_analyzer import CDRAnalyzer
+from social_media_intel import SocialMediaIntelEngine
+from multi_source_loader import MultiSourceDataLoader
 
 # Apply Custom Theme Styling
 apply_custom_css()
