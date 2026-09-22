@@ -23,11 +23,11 @@ from graph_builder import CriminalGraphBuilder
 from metrics import compute_graph_metrics
 from pattern_detector import PatternDetector
 from pathfinder import PathfinderEngine
-from visualization.graph_renderer import render_pyvis_graph
-from visualization.timeline_view import render_event_timeline
-from visualization.map_view import render_geospatial_map
-from ai_assistant.query_parser import InvestiAIQueryEngine
-from ai_assistant.report_generator import generate_intelligence_dossier_html
+from graph_renderer import render_pyvis_graph
+from timeline_view import render_event_timeline
+from map_view import render_geospatial_map
+from query_parser import InvestiAIQueryEngine
+from report_generator import generate_intelligence_dossier_html
 from styles import apply_custom_css
 from streamlit_folium import st_folium
 
