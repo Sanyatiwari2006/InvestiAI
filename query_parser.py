@@ -3,9 +3,9 @@ Natural Language Query Engine over Criminal Knowledge Graph
 """
 
 import networkx as nx
-from engine.pattern_detector import PatternDetector
-from engine.pathfinder import PathfinderEngine
-from engine.metrics import compute_graph_metrics
+from pattern_detector import PatternDetector
+from pathfinder import PathfinderEngine
+from metrics import compute_graph_metrics
 
 class InvestiAIQueryEngine:
     def __init__(self, G: nx.MultiDiGraph):
