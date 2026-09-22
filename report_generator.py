@@ -4,8 +4,8 @@ Law Enforcement Intelligence Case Dossier & Court Evidence Exporter
 
 import datetime
 import networkx as nx
-from engine.metrics import compute_graph_metrics
-from engine.pattern_detector import PatternDetector
+from metrics import compute_graph_metrics
+from pattern_detector import PatternDetector
 
 def generate_intelligence_dossier_html(G: nx.MultiDiGraph, case_title="OPERATION BLACK ICE"):
     """
