@@ -18,7 +18,7 @@ import numpy as np
 import streamlit.components.v1 as components
 
 from config import ENTITY_TYPES, RELATIONSHIP_TYPES
-from data.sample_generator import generate_investigation_dataset
+from sample_generator import generate_investigation_dataset
 from engine.graph_builder import CriminalGraphBuilder
 from engine.metrics import compute_graph_metrics
 from engine.pattern_detector import PatternDetector
