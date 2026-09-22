@@ -20,15 +20,15 @@ import streamlit.components.v1 as components
 from config import ENTITY_TYPES, RELATIONSHIP_TYPES
 from sample_generator import generate_investigation_dataset
 from graph_builder import CriminalGraphBuilder
-from engine.metrics import compute_graph_metrics
-from engine.pattern_detector import PatternDetector
-from engine.pathfinder import PathfinderEngine
+from metrics import compute_graph_metrics
+from pattern_detector import PatternDetector
+from pathfinder import PathfinderEngine
 from visualization.graph_renderer import render_pyvis_graph
 from visualization.timeline_view import render_event_timeline
 from visualization.map_view import render_geospatial_map
 from ai_assistant.query_parser import InvestiAIQueryEngine
 from ai_assistant.report_generator import generate_intelligence_dossier_html
-from utils.styles import apply_custom_css
+from styles import apply_custom_css
 from streamlit_folium import st_folium
 
 # New Multi-Source & Intelligence Engines
