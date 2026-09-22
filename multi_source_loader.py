@@ -5,7 +5,7 @@ Handles structured and unstructured datasets: FIRs, CDR CSVs, Financial logs, Su
 
 import pandas as pd
 import io
-from engine.nlp_extractor import NLPEntityExtractor
+from nlp_extractor import NLPEntityExtractor
 
 class MultiSourceDataLoader:
     """
